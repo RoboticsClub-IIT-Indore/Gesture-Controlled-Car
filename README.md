@@ -5,3 +5,16 @@ This project utilizes mediapipe library to get landmark points of hand and using
 - `ip_address.ino` file can be used to find the IP address of ESP8266 on the Wi-Fi network in case we aren't aware of it.
 - `transmitter.py` file figures out the hand gestures and sends them to ESP8266.
 - `esp_8266_receiver.ino` is the file which is uploaded onto ESP8266 which performs actions based on the gestures identified by the python script.
+
+## Dependencies
+1. **NodeMCU ESP8266 Driver:** this will be required when you try to upload the code onto the micro-controller.
+2. **Python libraries:** to run the `transmitter.py` script you will be required to install the following libraries:
+  - mediapipe
+  - socket
+  - OpenCV
+
+## Steps to run the setup
+1. Replace the IP address in `ip_address.ino` file and Wi-Fi network ID and password in `transmitter.py` file.
+2. Upload `esp_8266_receiver.ino` onto the micro-controller via Arduino software.
+3. Start `transmitter.py` script and wait until it says in the terminal "Connected to server". This will mean connections to the server are fine.
+4. You can now check to see if the gestures are being detected well. You can also connect the micro-controller to your PC to check if serial monitor is printing the correct gestures.
