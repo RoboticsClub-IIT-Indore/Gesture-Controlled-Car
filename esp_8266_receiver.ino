@@ -12,8 +12,8 @@ int RFW2=D7;
 int highSpeedf = 255;
 int lowSpeedf =0;
 
-const char* ssid = "Dishank";
-const char* password = "dishankj";
+const char* ssid = "Id";
+const char* password = "password";
 
 // Define server IP and port
 const int serverPort = 80; // Port number for TCP server
