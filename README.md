@@ -14,7 +14,7 @@ This project utilizes mediapipe library to get landmark points of hand and using
   - OpenCV
 
 ## Steps to run the setup
-1. Replace the IP address in `ip_address.ino` file and Wi-Fi network ID and password in `transmitter.py` file.
+1. Replace the IP address in `esp_8266_receiver.ino` file and Wi-Fi network ID and password in `transmitter.py` file.
 2. Upload `esp_8266_receiver.ino` onto the micro-controller via Arduino software.
 3. Start `transmitter.py` script and wait until it says in the terminal "Connected to server". This will mean connections to the server are fine.
 4. You can now check to see if the gestures are being detected well. You can also connect the micro-controller to your PC to check if serial monitor is printing the correct gestures.
