@@ -9,8 +9,8 @@ This project utilizes mediapipe library to get landmark points of hand and using
 ## Dependencies
 1. **NodeMCU ESP8266 Driver:** this will be required when you try to upload the code onto the micro-controller.
 2. **Python libraries:** to run the `transmitter.py` script you will be required to install the following libraries:
-  - mediapipe
-  - socket
+  - Mediapipe
+  - Socket
   - OpenCV
 
 ## Steps to run the setup
